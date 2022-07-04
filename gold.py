@@ -25,3 +25,12 @@ print(name + "는 어른일까요? " + str (is_adult))
 from random import *
 
 print(random())
+print(random() * 10)
+print(int(random() * 10))
+print(int(random() * 10) + 1)
+
+print(randrange(1,46))
+print(randint(1,45))
+
+date = randint(4, 28)
+print("오프라인 스터디 모임 날짜는 매월" + str(date) + " 선정되었습니다.")
