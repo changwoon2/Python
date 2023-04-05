@@ -13,7 +13,7 @@ price(3)
 price_morning(4)
 price_solider(5)
 print()
-from Modules import price, price_morning
+from Modules import price, price_morning, price_solider
 price(5)
 price_morning(6)
 price_solider(7)
